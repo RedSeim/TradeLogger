@@ -1,0 +1,21 @@
+# =============================================================================
+#                    MT4 TRADE LOGGER - DEPENDENCIAS PYTHON
+# =============================================================================
+# Archivo de dependencias para despliegue en la nube.
+# Usar: pip install -r requirements.txt
+# =============================================================================
+
+# Framework web asíncrono
+fastapi==0.109.0
+
+# Servidor ASGI para producción
+uvicorn[standard]==0.27.0
+
+# Cliente HTTP asíncrono para llamadas a Notion
+httpx==0.26.0
+
+# Validación de datos (incluido con FastAPI, pero especificamos versión)
+pydantic==2.5.3
+
+# Soporte para variables de entorno (opcional pero útil)
+python-dotenv==1.0.0
